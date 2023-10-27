@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/mainpage.css'>
+
+</head>
+<body>
+    <div class="P_section1" id="bd1">
+    </div>
+    <div class="P_section2">
+        <div class="row" id="r1">
+            <button class="b_row" id="ac" value="" onClick="wipe('');">
+                AC
+            </button>
+            <button class="b_row" id="neg" value="-" onClick="mainboard('-');">
+                +/-
+            </button>
+            <button class="b_row" id="perc" value="%" onClick="mainboard('%');">
+                %
+            </button>
+            <button class="b_rowl" id="div" value="/" onClick="mainboard('/');">
+                /
+            </button>
+        </div>
+        <div class="row" id="r2">
+            <button class="b_row" id="n7" value="7" onClick="mainboard(7);">
+                7
+            </button>
+            <button class="b_row" id="n8" value="6" onClick="mainboard(8);">
+                8
+            </button>
+            <button class="b_row" id="n9" value="9" onClick="mainboard(9);">
+                9
+            </button>
+            <button class="b_rowl" id="mult" value="*" onClick="mainboard('*');">
+                x
+            </button>
+        </div>
+        <div class="row" id="r3">
+            <button class="b_row" id="n4" value="4" onClick="mainboard(4);">
+                4
+            </button>
+            <button class="b_row" id="n5" value="5" onClick="mainboard(5);">
+                5
+            </button>
+            <button class="b_row" id="n6" value="6" onClick="mainboard(6);">
+                6
+            </button>
+            <button class="b_rowl" id="min" value="-" onClick="mainboard('-');">
+                -
+            </button>
+        </div>
+        <div class="row" id="r4">
+            <button class="b_row" id="n1" value="1" onClick="mainboard(1);">
+                1
+            </button>
+            <button class="b_row" id="n2" value="2" onClick="mainboard(2);">
+                2
+            </button>
+            <button class="b_row" id="n3" value="3" onClick="mainboard(3);">
+                3
+            </button>
+            <button class="b_rowl" id="add" value="+" onClick="mainboard('+');">
+                +
+            </button>
+        </div>
+        <div class="row" id="r5">
+            <button class="b_rowl0" id="n0" value="0" onClick="mainboard('0');">
+                0
+            </button>
+            <button class="b_row" id="point" value="." onClick="mainboard('.');">
+                .
+            </button>
+            <button class="b_rowl" id="equal" value="=" onClick="sum();">
+                =
+            </button>
+        </div>
+    </div>
+    
+    <script src='js/mainpage.js'></script>    
+</body>
+</html>
