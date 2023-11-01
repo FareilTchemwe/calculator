@@ -10,3 +10,7 @@ function sum() {
     display = eval(board.innerText);
     board.innerHTML = display;
 }
+function del() {
+    var display = [board.innerText];
+    board.innerHTML = display.slice(0, display.length - 1);
+}

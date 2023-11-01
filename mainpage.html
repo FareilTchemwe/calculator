@@ -16,8 +16,8 @@
             <button class="b_row" id="ac" value="" onClick="wipe('');">
                 AC
             </button>
-            <button class="b_row" id="neg" value="-" onClick="mainboard('-');">
-                +/-
+            <button class="b_row" id="neg" value="-" onClick="del();">
+                DEL
             </button>
             <button class="b_row" id="perc" value="%" onClick="mainboard('* (1 / 100)');">
                 %
@@ -69,11 +69,14 @@
             </button>
         </div>
         <div class="row" id="r5">
-            <button class="b_rowl0" id="n0" value="0" onClick="mainboard('0');">
+            <button class="b_row" id="n0" value="0" onClick="mainboard('0');">
                 0
             </button>
             <button class="b_row" id="point" value="." onClick="mainboard('.');">
                 .
+            </button>
+            <button class="b_row" id="neg" value="-" onClick="mainboard('-');">
+                +/-
             </button>
             <button class="b_rowl" id="equal" value="=" onClick="sum();">
                 =
